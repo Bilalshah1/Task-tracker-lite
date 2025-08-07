@@ -31,11 +31,12 @@ A modern, full-stack task management application built with the MERN stack (Mong
 ## Project Structure
 
 ```
-task/
-├── server.js              # Backend server
-├── package.json           # Backend dependencies
-├── env.example           # Environment variables template
-├── frontend/             # React frontend
+Task-tracker-lite/
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── env.example
+├── frontend/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
@@ -51,8 +52,9 @@ task/
 │   │   ├── App.css
 │   │   ├── index.js
 │   │   └── index.css
-│   └── package.json      # Frontend dependencies
-└── README.md
+│   └── package.json
+├── README.md
+├── start.bat
 ```
 
 ## Prerequisites
@@ -115,18 +117,7 @@ npm start
 ```
 The frontend will run on `http://localhost:3000`
 
-### Production Mode
 
-1. **Build the frontend:**
-```bash
-cd frontend
-npm run build
-```
-
-2. **Start the backend:**
-```bash
-npm start
-```
 
 ## API Endpoints
 
@@ -201,13 +192,7 @@ Tasks cannot be marked as completed if the due date is in the future. This is en
 - **Axios** - HTTP client
 - **CSS3** - Styling
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## License
 
