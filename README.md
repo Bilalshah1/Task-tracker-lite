@@ -106,14 +106,14 @@ npm install
 1. **Start the backend server:**
 ```bash
 # From the root directory (task/)
-npm run dev
+npm start
 ```
 The backend will run on `http://localhost:5000`
 
 2. **Start the frontend development server:**
 ```bash
 # From the frontend directory (task/frontend/)
-npm start
+npm run dev
 ```
 The frontend will run on `http://localhost:3000`
 
@@ -194,10 +194,3 @@ Tasks cannot be marked as completed if the due date is in the future. This is en
 
 
 
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For support or questions, please open an issue in the repository. 
